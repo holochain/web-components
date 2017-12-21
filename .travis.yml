@@ -1,0 +1,20 @@
+sudo: required
+
+language: node_js
+node_js:
+  - "8"
+
+script:
+  - npm install
+  - npm test
+  - npm build
+
+cache:
+  directories:
+    - ui-automation/node_modules
+
+after_success:
+    deploy:
+      provider: npm
+      email: "philip.beadle@live.com.au"
+      api_key: "b2b019c1-13c6-4346-abbd-f65f7cb6e134"
