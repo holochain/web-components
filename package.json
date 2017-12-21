@@ -11,7 +11,8 @@
     "build": "yarn run clean-dist && NODE_ENV=production `yarn bin`/babel ./src --out-dir ./dist",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest --coverage --watch"
+    "test": "jest --coverage --watch",
+    "test:ci": "jest --coverage"
   },
   "peerDependencies": {
     "react": "^16.2.0",
