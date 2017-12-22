@@ -13,7 +13,4 @@ cache:
     - ui-automation/node_modules
 
 after_success:
-  if [[ ${TRAVIS_BRANCH} == *"master"* ]]
-  - npm run deploy-storybook
-  - npm publish
-  fi
+  - ./firebase_deploy.sh $TRAVIS_BRANCH $FIREBASE_TOKEN_PROD $FIREBASE_PROJECT_PROD
