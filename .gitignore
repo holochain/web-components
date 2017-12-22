@@ -4,3 +4,5 @@ yarn-error.log
 dist/
 coverage/
 yarn.lock
+.coverage/
+.cache/

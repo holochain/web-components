@@ -30,6 +30,7 @@ export default class Follow extends Component {
   render() {
     return (
       <div className="panel panel-default">
+      <p>TEST</p>
         <div className="panel-body">
           <div className="row">
             <h3 id="myModalLabel">Follow a user</h3>

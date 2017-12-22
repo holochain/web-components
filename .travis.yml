@@ -6,7 +6,6 @@ node_js:
 
 script:
   - npm install
-  - npm run test:ci
   - npm run build
 
 cache:
