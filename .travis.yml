@@ -13,4 +13,4 @@ cache:
     - ui-automation/node_modules
 
 after_success:
-  - ./deploy-storybook.sh $TRAVIS_BRANCH
+  - ./deploy-storybook.sh "master"
