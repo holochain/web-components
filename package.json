@@ -1,11 +1,11 @@
 {
   "name": "holochain-web-components",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "description": "Library of React Web Components for Holochain Apps",
-  "main": "index.js",
   "repository": "git@github.com:Holochain/web-components.git",
   "author": "Philip Beadle <philip.beadle@live.com.au>",
   "license": "MIT",
+  "main": "./dist/index.js",
   "scripts": {
     "clean-dist": "rm -rf ./dist",
     "build": "yarn run clean-dist && NODE_ENV=production `yarn bin`/babel ./src --out-dir ./dist",

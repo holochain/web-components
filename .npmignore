@@ -2,3 +2,10 @@ src/
 .babelrc
 yarn.lock
 yarn-error.log
+.storybook/
+.travis.yml
+config/
+coverage/
+deploy-storybook.sh
+stories/
+test/
