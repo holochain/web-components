@@ -1,6 +1,6 @@
 {
   "name": "holochain-web-components",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Library of React Web Components for Holochain Apps",
   "repository": "git@github.com:Holochain/web-components.git",
   "author": "Philip Beadle <philip.beadle@live.com.au>",
