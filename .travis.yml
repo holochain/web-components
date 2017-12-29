@@ -14,6 +14,12 @@ cache:
 
 after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
-      npm publish;
       npm run deploy-storybook;
     fi
+
+deploy:
+  provider: npm
+  email: "philip.beadle@live.com.au"
+  api_key: "b2b019c1-13c6-4346-abbd-f65f7cb6e134"
+  on:
+    branch: master
