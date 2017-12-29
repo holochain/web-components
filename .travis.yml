@@ -13,4 +13,7 @@ cache:
     - ui-automation/node_modules
 
 after_success:
-  - ./deploy-storybook.sh "master"
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then
+      npm publish;
+      npm run deploy-storybook;
+    fi
