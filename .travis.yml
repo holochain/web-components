@@ -13,4 +13,4 @@ cache:
     - ui-automation/node_modules
 
 after_success:
-  - ./deploy-storybook.sh "master"
+  - npm run deploy-storybook
