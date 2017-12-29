@@ -1,6 +1,6 @@
 ![alt text](https://travis-ci.org/Holochain/web-components.svg?branch=master)
 
-# web-components
+# web-components [![Build Status](https://travis-ci.org/Holochain/web-components.svg?branch=master)](https://travis-ci.org/Holochain/web-components)
 Library of React Web Components for Holochain Apps
 
 ## Storybook
